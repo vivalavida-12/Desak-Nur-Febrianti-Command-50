@@ -1,0 +1,201 @@
+50 COMMAND LINE LINUX/UBUNTU
+
+1. mkdir
+Fungsi: Membuat directory baru.
+Contoh: mkdir SKU
+
+2. rmdir
+Fungsi: Menghapus directory kosong.
+Contoh: rmdir SKU
+
+3. cd
+Fungsi: Berpindah ke directory.
+Contoh: cd SKU
+
+4. pwd
+Fungsi: Menampilkan lokasi directory saat ini.
+Contoh: pwd
+
+5. ls
+Fungsi: Menampilkan isi directory.
+Contoh: ls
+
+6. ls -la
+Fungsi: Menampilkan semua file termasuk file tersembunyi dengan detail.
+Contoh: ls -la
+
+7. touch
+Fungsi: Membuat file kosong.
+Contoh: touch data.txt
+
+8. cat
+Fungsi: Menampilkan isi file.
+Contoh: cat data.txt
+
+9. cp
+Fungsi: Menyalin file atau directory.
+Contoh: cp data.txt backup.txt
+
+10. mv
+Fungsi: Memindahkan atau mengganti nama file.
+Contoh: mv data.txt dokumen.txt
+
+11. rm
+Fungsi: Menghapus file.
+Contoh: rm data.txt
+
+12. rm -r
+Fungsi: Menghapus directory beserta isinya.
+Contoh: rm -r SKU
+
+13. echo
+Fungsi: Menampilkan teks atau menulis teks ke file.
+Contoh: echo "Halo Ubuntu"
+
+14. clear
+Fungsi: Membersihkan tampilan terminal.
+Contoh: clear
+
+15. history
+Fungsi: Menampilkan riwayat command yang pernah dijalankan.
+Contoh: history
+
+16. man
+Fungsi: Membuka manual atau dokumentasi sebuah command.
+Contoh: man ls
+
+17. whoami
+Fungsi: Menampilkan nama user yang sedang digunakan.
+Contoh: whoami
+
+18. date
+Fungsi: Menampilkan tanggal dan waktu sistem.
+Contoh: date
+
+19. cal
+Fungsi: Menampilkan kalender.
+Contoh: cal
+
+20. uname
+Fungsi: Menampilkan informasi sistem.
+Contoh: uname -a
+
+21. hostname
+Fungsi: Menampilkan nama komputer.
+Contoh: hostname
+
+22. df
+Fungsi: Menampilkan penggunaan ruang disk.
+Contoh: df -h
+
+23. du
+Fungsi: Menampilkan ukuran file atau directory.
+Contoh: du -sh SKU
+
+24. free
+Fungsi: Menampilkan penggunaan RAM dan swap.
+Contoh: free -h
+
+25. top
+Fungsi: Memantau proses yang sedang berjalan secara real-time.
+Contoh: top
+
+26. ps
+Fungsi: Menampilkan proses yang sedang berjalan.
+Contoh: ps aux
+
+27. kill
+Fungsi: Menghentikan proses berdasarkan PID.
+Contoh: kill 1234
+
+28. sudo
+Fungsi: Menjalankan command dengan hak administrator.
+Contoh: sudo apt update
+
+29. apt update
+Fungsi: Memperbarui daftar paket yang tersedia.
+Contoh: sudo apt update
+
+30. apt upgrade
+Fungsi: Memperbarui paket yang sudah terpasang.
+Contoh: sudo apt upgrade
+
+31. apt install
+Fungsi: Menginstal paket atau aplikasi.
+Contoh: sudo apt install git
+
+32. apt remove
+Fungsi: Menghapus paket atau aplikasi.
+Contoh: sudo apt remove git
+
+33. grep
+Fungsi: Mencari teks tertentu di dalam file atau output.
+Contoh: grep "Ubuntu" data.txt
+
+34. find
+Fungsi: Mencari file atau directory berdasarkan kriteria tertentu.
+Contoh: find . -name "data.txt"
+
+35. locate
+Fungsi: Mencari lokasi file dengan database nama file.
+Contoh: locate data.txt
+
+36. head
+Fungsi: Menampilkan beberapa baris pertama file.
+Contoh: head data.txt
+
+37. tail
+Fungsi: Menampilkan beberapa baris terakhir file.
+Contoh: tail data.txt
+
+38. wc
+Fungsi: Menghitung jumlah baris, kata, dan karakter.
+Contoh: wc data.txt
+
+39. sort
+Fungsi: Mengurutkan baris teks.
+Contoh: sort data.txt
+
+40. chmod
+Fungsi: Mengubah permission file atau directory.
+Contoh: chmod +x script.sh
+
+41. chown
+Fungsi: Mengubah pemilik file atau directory.
+Contoh: sudo chown user:user data.txt
+
+42. nano
+Fungsi: Membuka editor teks sederhana di terminal.
+Contoh: nano data.txt
+
+43. tar
+Fungsi: Mengarsipkan atau mengekstrak file.
+Contoh: tar -cvf arsip.tar SKU
+
+44. zip
+Fungsi: Membuat file arsip ZIP.
+Contoh: zip -r SKU.zip SKU
+
+45. unzip
+Fungsi: Mengekstrak file ZIP.
+Contoh: unzip SKU.zip
+
+46. wget
+Fungsi: Mengunduh file dari internet melalui terminal.
+Contoh: wget https://example.com/file.txt
+
+47. curl
+Fungsi: Mengambil data atau mengakses URL melalui terminal.
+Contoh: curl https://example.com
+
+48. ping
+Fungsi: Menguji koneksi jaringan ke suatu host.
+Contoh: ping -c 4 google.com
+
+49. git clone
+Fungsi: Menyalin repository Git dari remote repository ke komputer.
+Contoh: git clone https://github.com/vivalavida-12/Desak-Nur-Febrianti-Command-50.git
+
+50. git push
+Fungsi: Mengirim commit dari komputer lokal ke repository remote.
+Contoh: git push origin main

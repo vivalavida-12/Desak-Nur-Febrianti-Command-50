@@ -1,0 +1,75 @@
+    1  ls      
+    2  mkdir      
+    3  mkdir dnf      
+    4  cd      
+    5  mkdir dnf      
+    6  cd dnf      
+    7  ls      
+    8  ls -l      
+    9  pwd      
+   10  mkdir dnf      
+   11  cd dnf      
+   12  touch data.txt      
+   13  echo "Hello World"      
+   14  echo "Hello World" > data.txt      
+   15  cat data.txt      
+   16  nano data.txt      
+   17  gedit data.txt      
+   18  udo apt install gedit      
+   19  sudo apt install gedit      
+   20  gedit data.txt      
+   21  head data.txt      
+   22  tail data.txt      
+   23  less data.txt      
+   24  cp data.txt backup.txt      
+   25  mv backup.txt data_lama.txt      
+   26  ls      
+   27  ls-l      
+   28  ls -l      
+   29  ls -a      
+   30  chmod 755 data.txt      
+   31  sudo chown user data.txt      
+   32  sudo chown dnf data.txt      
+   33  sudo chown dnf.txt      
+   34  rm data_lama.txt      
+   35  cd ..      
+   36  cp -r dnf dnf_backup      
+   37  rmdir dnf_backup      
+   38  rm -r dnf_backup      
+   39  whoami      
+   40  uname -a      
+   41  df -h      
+   42  du -h dnf      
+   43  free -h      
+   44  ps      
+   45  ps aux      
+   46  top      
+   47  kill 1234      
+   48  kill 28      
+   49  kill 3601      
+   50  date      
+   51  cal      
+   52  sudo apt install ncal      
+   53  cal      
+   54  uptime      
+   55  wc -l data.txt      
+   56  echo "Halo ubuntu" > data.txt wc -l data.txt      
+   57  wc -l data.txt      
+   58  echo $USER      
+   59  history | tail -n 10      
+   60  who      
+   61  w      
+   62  hostname      
+   63  lsb_release -a      
+   64  uname      
+   65  id      
+   66  cat /etc/issue      
+   67  sleep 2      
+   68  man-f ls      
+   69  man -f ls      
+   70  echo $SHELL      
+   71  type ls      
+   72  free -m      
+   73  lscpu      
+   74  history > praktikum_so_Desak_Nur_Febrianti.txt    
+   
